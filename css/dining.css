@@ -1,0 +1,123 @@
+#wrap_dining .dining_all {
+  display: none;
+}
+#wrap_dining .dining_all.dining_on {
+  display: block;
+}
+.wellness_all {
+  display: none;
+}
+.wellness_all.well_on {
+  display: block;
+}
+
+#wrap_dining .room_headerText h1 {
+  margin-bottom: 0.429em;
+}
+#wrap_dining .room_headerText span {
+  display: block;
+  font-size: 2.4rem;
+  color: #666;
+  margin-bottom: 1.875em;
+}
+#wrap_dining .room_headerText p {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+#wrap_dining .room_standardMain ul {
+  margin-top: 1.875em;
+}
+
+
+#wrap_dining .room_standardMain .dining_menu {
+  font-size: 1.6rem;
+  color: #ac8956;
+  font-weight: 400;
+  margin-top: 1.875em;
+  position: relative;
+  cursor: pointer;
+}
+
+
+#wrap_dining .room_standFoot {
+  display: flex;
+  justify-content: start;
+  margin: 10em 20em;
+  padding: 5em 0 0 5em;
+}
+#wrap_dining .standFoot_footLeft {
+  width: 15%;
+}
+#wrap_dining .room_standFoot .standFoot_footRight {
+  display: flex;
+}
+#wrap_dining .standFoot_footRight .standFoot_text {
+  margin-right: 5em;
+  line-height: 1.6;
+}
+#wrap_dining .standFoot_footRight .standFoot_text:first-child {
+  margin-right: 10em;
+}
+#wrap_dining .standFoot_footRight .standFoot_text:last-child {
+  margin-right: 0;
+}
+#wrap_dining .standFoot_footRight .standFoot_text strong {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+}
+
+
+/* garden */
+#wrap_dining .standFoot_footRight .standFoot_text.tg {
+  margin-right: 10em;
+}
+
+/* csl */
+
+#wrap_dining .room_standardMain .room_text ul {
+  margin-bottom: 2em;
+}
+#csl_headerH1 {
+  margin-top: 1.2em;
+}
+#wrap_dining .room_standFoot.csl_foot {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10em 20em;
+}
+
+/* wellness */
+#wrap_dining .room_standFoot.wellness_foot {
+  display: block;
+  margin: 10em 20em;
+  padding: 5em 0 5em 5em;
+}
+#wrap_dining .room_standFoot.wellness_foot .standFoot_footLeft {
+  float: left;
+}
+#wrap_dining .room_standFoot.wellness_foot .standFoot_footRight {
+  float: left;
+}
+#wrap_dining .room_standFoot.wellness_foot .wellness_footerText {
+  clear: both;
+  font-size: 1.6rem;
+  color: #666;
+  margin-left: 215px;
+  line-height: 2;
+}
+/* wellnesss-gym */
+.room_text.wellness_gym p {
+  font-weight: 300;
+}
+#wrap_dining .room_standFoot.wellness_gym_foot {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5em 10em 0 0;
+}
+#wrap_dining .room_standFoot.wellness_gym_foot ul li {
+  font-size: 1.6rem;
+  color: #666;
+  line-height: 2;
+}

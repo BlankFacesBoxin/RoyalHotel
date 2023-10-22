@@ -1,0 +1,137 @@
+.acc_loca {
+  padding: 0 20em;
+}
+
+
+.loca_header {
+  text-align: center;
+  margin: 10em 0;
+}
+.loca_header h1 {
+  font-size: 3.5rem;
+  color: #222;
+}
+.loca_header p {
+  font-size: 2.2rem;
+  margin-top: 2em;
+}
+.loca_mapArea {
+  height: 70vh;
+}
+.loca_traffic {
+  margin: 10em 0;
+}
+.loca_traArea {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+.loca_traArea1 {
+  width: 48%;
+  border-bottom:1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3em;
+}
+.loca_traArea1 div {
+  display: flex;
+  justify-content: start;
+}
+.loca_traArea1 div img {
+  display: block;
+}
+.loca_traArea1 div p {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #222;
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+}
+.loca_traArea1 button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s;
+}
+.loca_traArea1 button span::before {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 18px;
+  height: 1px;
+  left: 30%;
+}
+.loca_traArea1 button span::after {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 18px;
+  height: 1px;
+  left: 30%;
+  transform: rotate(90deg);
+}
+.loca_traArea1 button:hover {
+  background: #ac8956;
+  border: #ac8956;
+}
+.loca_traArea1 button:hover span::before {
+  background: #fff;
+}
+.loca_traArea1 button:hover span::after {
+  background: #fff;
+}
+
+/* attraction Area */
+.loca_attraction {
+  padding: 0 20em;
+  display: none;
+}
+.loca_attImg {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10em;
+}
+.loca_attImg .attText {
+  width: 100%;
+  background: #262626 url(../img/access/attraction/m07_01_04_bg01.png) no-repeat right bottom;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10em;
+}
+.loca_attImg .attText h2 {
+  font-size: 3.5rem;
+  margin-bottom: 0.429em;
+}
+.loca_attImg .attText h4 {
+  font-size: 2rem;
+  color: #ac8956;
+  font-weight: 500;
+  margin-bottom: 2.750em;
+}
+.loca_attImg .attText p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 2.750em;
+}
+.loca_attImg .attText span {
+  font-size: 1.6rem;
+  color: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 10em;
+  padding: 0.625em 1.875em;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.loca_attImg .attText span:hover {
+  background: #ac8956;
+  border: 1px solid #ac8956;
+}

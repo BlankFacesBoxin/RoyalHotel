@@ -1,0 +1,169 @@
+
+/* //swiper */
+.room_firstArea {
+  padding: 0 20em;
+  display: none;
+}
+.room_firstArea.room_on {
+  display: block;
+}
+.room_firstArea .room_headerText {
+  text-align: center;
+  margin: 10em 0;
+}
+.room_firstArea .room_headerText h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5em;
+}
+.room_firstArea .room_headerText p {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.room_standardMain {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10em;
+}
+.room_standardMain .room_swiper {
+  width: 70%;
+}
+.room_standardMain .room_swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: left;
+}
+.room_standardMain .room_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  margin-left: 10%;
+}
+.room_standardMain .room_text h4 {
+  font-size: 3.5rem;
+}
+.room_standardMain .room_text h5 {
+  font-size: 2rem;
+  color: #ac8956;
+  margin-top: 1em;
+  font-weight: 500;
+}
+.room_standardMain .room_text p {
+  font-size: 1.8rem;
+  margin: 45px 0;
+}
+.room_standardMain .room_text span {
+  display: block;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 0.625em 0;
+  width: 10em;
+  border: 1px solid #000;
+  transition: all 0.3s;
+}
+.room_standardMain .room_text span:hover {
+  background: #ac8956;
+  border: 1px solid #ac8956;
+  color: #fff;
+}
+/* //room_stand main */
+.room_standFoot {
+  padding: 5em;
+  border: 1px solid #ac8956;
+  background: rgba(172, 137, 86, 0.1);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10em;
+}
+.room_standFoot .standFoot_footLeft {
+  width: 40%;
+  text-align: center;
+}
+.room_standFoot .standFoot_footLeft h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.room_standFoot .standFoot_footRight .standFoot_text {
+  margin-bottom: 5em;
+}
+.room_standFoot .standFoot_footRight .standFoot_text:last-child {
+  margin-bottom: 0;
+}
+.room_standFoot .standFoot_footRight .standFoot_text h6 {
+  font-size: 1.8rem;
+  color: #ac8956;
+  margin-bottom: 0.556em;
+  font-weight: 500;
+}
+.room_standFoot .standFoot_footRight .standFoot_text p {
+  font-size: 1.6rem;
+  color: #666;
+}
+.room_text.textRight {
+  text-align: right;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.room_text.textRight span {
+  margin-left: 55%;
+}
+/* //room standand area */
+.room_headerText strong {
+  color: #ac8956;
+}
+.room_headerText h1:nth-child(3) {
+  margin: 1em 0 1.5em 0;
+}
+.room_headerText p:last-child {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+}
+
+.room_text ul {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: rgba(0, 0, 0, 0.8);
+}
+.room_text #cls_text {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+.room_text .middot li {
+  margin-left: 40%;
+  background: #000;
+  width: 5px;
+  height: 5px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+}
+.csl_swiper .swiper-slide img {
+  width: 100%;
+}
+.csl_moreView {
+  padding: 10em 20em;
+  background: rgba(0, 0, 0, 0.1);
+}
+.csl_moreView h4 {
+  font-size: 3rem;
+  margin-bottom: 3.333em;
+}
+.csl_moreView .csl_swiper {
+  margin-bottom: 10em;
+}
+.room_all.csl .room_standFoot {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10em 20em;
+}
+.room_all.csl .standFoot_footLeft {
+  width: 20%;
+}
+.room_all.csl .room_standFoot .standFoot_footRight {
+  display: flex;
+}
+.room_all.csl .standFoot_footRight .standFoot_text {
+  margin-right: 20em;
+}

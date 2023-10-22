@@ -1,0 +1,217 @@
+.work_mainArea {
+  color: #222;
+  padding: 0 20em;
+}
+.work_header {
+  text-align: center;
+  margin: 10em 0;
+}
+.work_header h2 {
+  font-size: 3.5rem;
+}
+.work_header p {
+  font-size: 2.2rem;
+  margin: 2em;
+}
+.work_bookin {
+  font-size: 2.4rem;
+  color: #333;
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.work_mainAreaTitle h2 {
+  display: inline-block;
+  font-size: 3rem;
+  color: #222222;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-right: 1em;
+}
+.work_mainAreaTitle {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+.work_mainAreaTitle .underLine {
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+}
+.work_mainArea1-1 {
+  display: flex;
+}
+.work_mainArea1-1 .work_img {
+  width: 50%;
+}
+.work_mainArea1-1 .work_img img {
+  width: 100%;
+  height: 100%;
+}
+.work_mainArea1-1 .work_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.work_mainArea1-1 .work_text span {
+  font-size: 1.8rem;
+  color: #ac8956;
+  font-weight: 600;
+}
+.work_mainArea1-1 .work_text h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 30px 0 80px 0;
+  position: relative;
+}
+.work_mainArea1-1 .work_text h3::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  left: 50%;
+  top: 150%; bottom: -150%;
+  background: #ac8956;
+}
+.work_mainArea1-1 .work_text p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+.work_roomType {
+  margin-top: 10em;
+}
+.work_roomType .work_roomTypeMain {
+  display: flex;
+}
+.work_roomType .work_roomTypeMain .thats_my_roomtype {
+  margin-right: 2em;
+  width: 48.5em;
+}
+.work_roomType .work_roomTypeMain .thats_my_roomtype h4 {
+  font-size: 2.5rem;
+  display: inline-block;
+  margin-right: 1em;
+}
+.work_roomType .work_roomTypeMain .thats_my_roomtype p {
+  display: inline-block;
+  font-size: 1.6rem;
+}
+.work_mainAreaTitle {
+  margin-top: 10em;
+}
+.work_mainAreaTable span {
+  font-size: 1.6rem;
+  color: #666;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+}
+.work_mainAreaTable table {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  box-sizing: border-box;
+}
+.work_mainAreaTable th {
+  width: calc(100%/3);
+  height: 3.5em;
+  font-weight: 400;
+  background: #ac8956;
+  color: #fff;
+}
+.work_mainAreaTable td {
+  height: 3.5em;
+  border-right: 1px solid #f8f4f0;
+  border-bottom: 1px solid #f8f4f0;
+  box-sizing: border-box;
+}
+.work_mainAreaTable td:first-child {
+  background: #f8f4f0;
+  border: none;
+}
+.work_mainAreaTable th:nth-child(2) {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+.workMapMain {
+  display: flex;
+}
+.workMap {
+  width: 65%;
+  height: 71em;
+}
+.workMapText {
+  width: 35%;
+  background: #3d3d3d url(../img/workStay/workStay/m07_01_04_bg01.png) no-repeat right bottom;
+  height: 71em;
+}
+.workMapText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding-left: 12em;
+  z-index: -2;
+}
+.workMapText h4 {
+  font-size: 3rem;
+  position: relative;
+}
+.workMapText h4::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  left: 0; top: -100%;
+  background: #fff;
+}
+.workMapText span {
+  font-size: 1.8rem;
+  margin-top: 1.389em;
+  margin-bottom: 5em;
+}
+.workMapText li {
+  font-size: 1.6rem;
+  line-height: 2;
+  position: relative;
+  padding-left: 5%;
+  margin-bottom: 2em;
+}
+.workMapText li img {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+}
+#secoundTrain {
+  font-size: 1.4rem;
+  margin: 0 5px;
+  position: relative;
+}
+#secoundTrain::after {
+  position: absolute;
+  content: '';
+  top: -1px;
+  left: -6px;
+  width: 20px;
+  height: 20px;
+  background: #3ca947;
+  border-radius: 50%;
+  z-index: -1;
+}
+#foursTrain {
+  font-size: 1.4rem;
+  margin: 0 5px;
+  position: relative;
+}
+#foursTrain::after {
+  position: absolute;
+  content: '';
+  top: -1px;
+  left: -6px;
+  width: 20px;
+  height: 20px;
+  background: #36a2de;
+  border-radius: 50%;
+  z-index: -1;
+}

@@ -1,0 +1,268 @@
+@import url(offers.css);
+@import url(room.css);
+@import url(dining.css);
+
+#wrap_dining {
+  color: #222;
+}
+.wedding_main {
+  padding: 0 20em;
+  text-align: center;
+}
+.mainTitle {
+  margin: 10em 0;
+}
+.mainTitle h1 {
+  font-size: 3.5rem;
+
+}
+.mainTitle p {
+  font-size: 2.2rem;
+  margin-top: 2.045em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.mainText {
+  margin: 10em 0 4em 0;
+}
+.mainText h2 {
+  font-size: 3rem;
+}
+.mainText span {
+  display: block;
+  font-size: 1.5rem;
+  color: #666;
+  margin: 1.333em 0 1.667em 0;
+}
+.mainText p {
+  font-size: 1.6rem;
+}
+.mainImg {
+  position: relative;
+}
+.mainImg img {
+  width: 100%;
+}
+.mainImg_text {
+  position: absolute;
+  top:0; right: 0;
+  width: 30%;
+  height: 67.4em;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainImg_text h2 {
+  font-size: 3rem;
+  color: #ac8956;
+  font-weight: 500;
+  margin-left: 2.333em;
+}
+.mainImg_text p {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2;
+  margin: 2.8em 0 2.8em 4.375em;
+}
+.mainImg_text span {
+  font-size: 1.6rem;
+  color: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 13.125em;
+  margin-left: 4.375em;
+  padding: 0.625em 1.875em;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.mainImg_text span:hover {
+  background: #ac8956;
+  border: 1px solid #ac8956;
+}
+.mainMoreV {
+  position: relative;
+  padding-bottom: 10em;
+}
+.mainMoreV h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 2em 0;
+}
+.mainMoreV #slickUnderC {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #ac8956;
+  left: 50%; bottom: 0;
+  border-radius: 50%;
+}
+.mainMoreV .slick-prev:before {
+  font-family: 'slick';
+  font-size: 30px;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mainMoreV .slick-next:before {
+  font-family: 'slick';
+  font-size: 30px;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mainMoreV .slick-next:before {
+  content: '→';
+  color: #ac8956;
+  position: absolute;
+  right: -10px;
+}
+.mainMoreV .slick-prev:before {
+  content: '←';
+  color: #ac8956;
+  position: absolute;
+  left: -30px;
+}
+
+.wedding_last {
+  margin-top: 10em;
+}
+.wedding_last .wl_area {
+  display: flex;
+  text-align: center;
+}
+.wedding_last .wl_area img {
+  width: 100%;
+  height: 100%;
+}
+.wedding_last .wl_area .wl_img {
+  width: 50%;
+}
+.wedding_last .wl_area .wl_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f8f8f8;
+}
+.wedding_last .wl_area .wl_text h2 {
+  font-size: 3rem;
+  margin-bottom: 1.333em;
+}
+.wedding_last .wl_area .wl_text p {
+  font-size: 1.6rem;
+}
+#wrap_dining .room_standFoot {
+  display: flex;
+  margin: 10em 20em;
+  padding: 5em 0 0 5em;
+  justify-content: flex-start;
+}
+#wrap_dining .room_standFoot .standFoot_footLeft {
+  margin-right: 5em;
+}
+#wrap_dining .room_standFoot .standFoot_footRight .standFoot_text {
+  margin-right: 15em;
+}
+#wrap_dining .room_standFoot .standFoot_footRight .standFoot_text p {
+  font-weight: 500;
+}
+/* //wedding.css */
+
+.ban_firstArea {
+  text-align: center;
+  margin-top: 10em;
+}
+.ban_firstArea h2 {
+  font-size: 3.5rem;
+  margin-bottom: 2.857em;
+}
+.ban_firstArea span {
+  display: block;
+  font-size: 1.6rem;
+  margin: 4.375em auto 0;
+  width: 11.250em;
+  padding: 0.625em;
+  border: 1px solid #000;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.ban_firstArea span:hover {
+  background: #ac8956;
+  border: 1px solid #ac8956;
+  color: #fff;
+}
+.ban_secoundArea {
+  background: #f5f5f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10em 20em;
+  margin-top: 10em;
+}
+.ban_secoundArea .ban_SA_text h2 {
+  font-size: 3.5rem;
+}
+.ban_secoundArea .ban_SA_text p {
+  font-size: 1.6rem;
+  margin-top: 1.563em;
+}
+.ban_last {
+  padding: 0 20em;
+}
+.ban_last .ban_lastArea {
+  border-bottom: 1px solid #ccc;
+}
+.ban_last .ban_lastArea .ban_LA_top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10em;
+}
+.ban_last .ban_lastArea .ban_LA_top .ban_swiper {
+  width: 903px;
+  margin: 0;
+}
+.ban_last .ban_lastArea .ban_LA_top .ban_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ban_last .ban_lastArea .ban_LA_top .ban_text h2 {
+  font-size: 3rem;
+}
+.ban_last .ban_lastArea .ban_LA_top .ban_text span {
+  font-size: 1.5rem;
+  color: #666;
+  margin: 1em 0 2em 0;
+}
+.ban_last .ban_lastArea .ban_LA_top .ban_text p {
+  font-size: 1.6rem;
+}
+.ban_last .ban_lastArea .ban_LA_top .ban_text span:last-child {
+  font-size: 1.6rem;
+  color: #000;
+  border: 1px solid #000;
+  display: block;
+  margin-top: 3.750em;
+  padding: 0.625em 1.875em;
+  box-sizing: border-box;
+  width: 13.125em;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.ban_last .ban_lastArea .ban_LA_top .ban_text span:last-child:hover {
+  color: #fff;
+  background: #ac8956;
+  border: 1px solid #ac8956;
+}
+.ban_last .ban_lastArea .ban_LA_bottom {
+  margin: 5em 0 10em 0;
+}

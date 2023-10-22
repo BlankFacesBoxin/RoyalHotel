@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로얄호텔서울</title>
+  <link rel="stylesheet" href="css/story.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/hotel.js"></script>
+</head>
+<body>
+  <div id="wrap_story">
+    <header>
+      <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+      <nav class="gnb">
+        <ul>
+          <li>
+            <a href="story.html">STORY</a>
+            <ul>
+              <li><a href="story.html">Story</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="offers.html">OFFERS</a>
+            <ul>
+              <li><a href="offers.html">Offers</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="room.html">ROOM</a>
+            <ul>
+              <li><a href="room.html">Standard</a></li>
+              <li><a href="room.html">Premier</a></li>
+              <li><a href="room.html">Suite</a></li>
+              <li><a href="room.html">Club Sky Lounge</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="dining.html">DINING</a>
+            <ul>
+              <li><a href="dining.html">Grand Kitchen</a></li>
+              <li><a href="dining.html">The Garden</a></li>
+              <li><a href="dining.html">Club Sky Lounge</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="wedding.html">WEDDING</a>
+            <ul>
+              <li><a href="wedding.html">Wedding</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="banquet.html">BANQUET</a>
+            <ul>
+              <li><a href="banquet.html">Banquet</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="wellness.html">WELLNESS</a>
+            <ul>
+              <li><a href="wellness.html">SPA</a></li>
+              <li><a href="wellness.html">GYM</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="work.html">WORK & STAY</a>
+            <ul>
+              <li><a href="work.html">Work & Stay</a></li>
+              <li><a href="work.html">Premium Office</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="membership.html">MEMBERSHIP</a>
+            <ul>
+              <li><a href="membership.html">Membership</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="access.html">ACCESS</a>
+            <ul>
+              <li><a href="access.html">Location</a></li>
+              <li><a href="access.html">Attraction</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="right_head">
+        <span><a href="#">로그인</a></span>
+        <ul class="lang">
+          <li>
+            <a href="#" class="main_lang">KOR</a>
+            <ul class="under_lang">
+              <li><a href="#">KOR</a></li>
+              <li><a href="#">ENG</a></li>
+              <li><a href="#">JPN</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="menu_area">
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="menu">
+      <img src="img/all_menu_logo.png" alt="" class="menuLogo">
+      <button class="menu_exit">
+        <img src="img/close.png" alt="">
+      </button>
+      <div class="mobile_login">
+        <p><a href="#">LOGIN</a></p>
+        <p><a href="#">JOIN</a></p>
+        <p><a href="#">MY BOOKING</a></p>
+      </div>
+      <div class="menuText">
+        <div class="menu_text">
+          <h4><a href="story.html">Story</a></h4>
+          <ul>
+            <li><a href="story.html">Story</a></li>
+          </ul>
+        </div>
+        <div class="menu_text">
+          <h4><a href="offers.html">Offers</a></h4>
+          <ul>
+            <li><a href="offers.html">Offers</a></li>
+          </ul>
+        </div>
+        <div class="menu_text bar">
+          <h4><a href="room.html">Room</a></h4>
+          <ul>
+            <li><a href="room.html">Standard</a></li>
+            <li><a href="room.html">Premier</a></li>
+            <li><a href="room.html">Suite</a></li>
+            <li><a href="room.html">Club Sky Lounge</a></li>
+          </ul>
+        </div>
+        <div class="menu_text bar">
+          <h4><a href="dining.html">Dining</a></h4>
+          <ul>
+            <li><a href="dining.html">Grand Kitchen</a></li>
+            <li><a href="dining.html">The Garden</a></li>
+            <li><a href="dining.html">Club Sky Lounge</a></li>
+          </ul>
+        </div>
+        <div class="menu_text">
+          <h4><a href="wedding.html">Wedding</a></h4>
+          <ul>
+            <li><a href="wedding.html">Wedding</a></li>
+          </ul>
+        </div>
+        <div class="menu_text">
+          <h4><a href="banquet.html">Banquet</a></h4>
+          <ul>
+            <li><a href="banquet.html">Banquet</a></li>
+          </ul>
+        </div>
+        <div class="menu_text bar">
+          <h4><a href="wellness.html">Wellness</a></h4>
+          <ul>
+            <li><a href="wellness.html">SPA</a></li>
+            <li><a href="wellness.html">GYM</a></li>
+          </ul>
+        </div>
+        <div class="menu_text bar">
+          <h4><a href="work.html">Work & Stay</a></h4>
+          <ul>
+            <li><a href="work.html">Work & Stay</a></li>
+            <li><a href="work.html">Premium Office</a></li>
+          </ul>
+        </div>
+        <div class="menu_text">
+          <h4><a href="membership.html">Membership</a></h4>
+          <ul>
+            <li><a href="membership.html">Membership</a></li>
+          </ul>
+        </div>
+        <div class="menu_text bar">
+          <h4><a href="access.html">Access</a></h4>
+          <ul>
+            <li><a href="access.html">Location</a></li>
+            <li><a href="access.html">Attraction</a></li>
+          </ul>
+        </div>
+        <a href="index.html">
+          <button class="menu_bye"><p>Reservation</p></button>
+        </a>
+      </div>
+    </div>
+    <div class="story_img">
+      <img src="img/membership/m08_banner.jpg" alt="">
+      <h1>MEMBERSHIP</h1>
+    </div>
+    <div class="wrap_membership">
+      <h1>REWARD PROGRAM</h1>
+      <div class="mem_mainImg">
+        <img src="img/membership/m08_01_01_img01.png" alt="">
+        <div class="mem_mainText">
+          <p>
+            REWARD PROGRAM은<br>
+            로얄호텔서울의 객실 및 식음료 업장 이용 실적을 포인트로 적립 해 드립니다.<br>
+            적립된 포인트는 현금 처럼 이용 가능하고, 가입비 및 연회비는 없습니다.
+          </p>
+        </div>
+      </div>
+      <div class="mem_table">
+        <div class="mem_tableGo">
+          <div><h6>포인트 적립</h6></div>
+          <div>
+            <p>
+              객실 이용 금액의 5%, 식음료 업장 이용 금액의 10%기준이며, 포인트 적립은 일정 요건에 해당하는 금액만 적립이 됩니다.<br>
+              세금을 제외한 지불 금액 기준이며, 본인의 멤버쉽 카드를 제시 하였을때 적립가능하며, 멤버쉽 카드 미 지참시 적립되지 않습니다.<br>
+            </p>
+          </div>
+        </div>
+        <div class="mem_tableGo">
+          <div><h6>포인트적립적용</h6></div>
+          <div>
+            <p>
+              객실은 홈페이지와 전화를 통한 예약, 식음료는 The Garden , Patisserie Etocle , Grand Kitchen 이용 시 적립 됩니다.
+            </p>
+          </div>
+        </div>
+        <div class="mem_tableGo">
+          <div><h6>포인트적립불가</h6></div>
+          <div>
+            <p>
+              법인회사를 통한 단체 행사 등은 적립에서 제외되며, 식음료 연회장 이용 실적은 적립 되지 않습니다.
+            </p>
+          </div>
+        </div>
+        <div class="mem_tableGo">
+          <div><h6>포인트 유효기간</h6></div>
+          <div>
+            <p>
+              적립 시점 부터 5년의 유효기간이 적용되며, 유효기간내 사용되지 않는 포인트는 자동 소멸 됩니다
+            </p>
+          </div>
+        </div>
+        <div class="mem_tableGo">
+          <div><h6>회원자격</h6></div>
+          <div>
+            <p>
+              멤버쉽 회원가입 후, 5년간 사용실적 없을시 자동 탈퇴 됩니다
+            </p>
+          </div>
+        </div>
+        <div class="mem_tableGo">
+          <div><h6>포인트의 사용</h6></div>
+          <div>
+            <p>
+              객실 및 식음료의 포인트는 20,000점 이상 적립시 현금 처럼 사용가능 합니다.
+            </p>
+          </div>
+        </div>
+        <div class="mem_tableGo lastTableGo">
+          <div><h6>회원가입 안내</h6></div>
+          <div>
+            <p>
+              인터넷 홈페이지 : 홈페이지를 통해 가입할 수 있습니다.<br>
+              객실 : 체크인시 신청서 작성을 통해 가입할 수 있습니다.<br>
+              식음료 : 영업장 이용시 신청서 작성을 통해 가입할 수 있습니다.<br>
+              02-756-1112
+            </p>
+          </div>
+        </div>
+        <span>회원가입</span>
+      </div>
+      <div class="mem_mainImg">
+        <img src="img/membership/m08_01_02_img01.png" alt="">
+        <div class="mem_mainText">
+          <p>
+            GOLD MEMBERSHIP 고객 중<br>
+            이용 실적이 우수한 로얄호텔서울의 VVIP회원 에게 발급해 드리는<br>
+            MEMBERSHIP 카드 입니다.
+          </p>
+        </div>
+      </div>
+      <div class="mem_table">
+        <div class="mem_tableGo">
+          <div><h6>플래티넘 멤버쉽 자격 요건</h6></div>
+          <div>
+            <p>
+              2년간 이용 실적이 300만원 이상인 고객 (객실+식음료 합산 실적)
+            </p>
+          </div>
+        </div>
+        <div class="mem_tableGo">
+          <div><h6>PLATINUM MEMBERSHIP의 혜택</h6></div>
+          <div>
+            <p>
+              객실은 이용금액의 10%, 식음료는 이용 금액의 15% 적립
+            </p>
+          </div>
+        </div>
+        <div class="mem_tableGo">
+          <div><h6>회원 자격 기간</h6></div>
+          <div>
+            <p>
+              발급일로 부터 1년간 유효 합니다. 단, 1년 이용 실적이 년간 150만원 이상인 경우 자동 연장 됩니다.
+            </p>
+          </div>
+        </div>
+        <div class="mem_tableGo lastTableGo">
+          <div><h6>회원가입 안내</h6></div>
+          <div>
+            <p>
+              02-756-1112
+            </p>
+          </div>
+        </div>
+        <span>회원가입</span>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="foot_head">
+        <nav class="foot_gnb">
+        <ul>
+          <li>
+            <a href="story.html">STORY</a>
+            <ul>
+              <li><a href="story.html">Story</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="offers.html">OFFERS</a>
+            <ul>
+              <li><a href="offers.html">Offers</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="room.html">ROOM</a>
+            <ul>
+              <li><a href="room.html">Standard</a></li>
+              <li><a href="room.html">Premier</a></li>
+              <li><a href="room.html">Suite</a></li>
+              <li><a href="room.html">Club Sky Lounge</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="dining.html">DINING</a>
+            <ul>
+              <li><a href="dining.html">Grand Kitchen</a></li>
+              <li><a href="dining.html">The Garden</a></li>
+              <li><a href="dining.html">Club Sky Lounge</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="wedding.html">WEDDING</a>
+            <ul>
+              <li><a href="wedding.html">Wedding</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="banquet.html">BANQUET</a>
+            <ul>
+              <li><a href="banquet.html">Banquet</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="wellness.html">WELLNESS</a>
+            <ul>
+              <li><a href="wellness.html">SPA</a></li>
+              <li><a href="wellness.html">GYM</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="work.html">WORK & STAY</a>
+            <ul>
+              <li><a href="work.html">Work & Stay</a></li>
+              <li><a href="work.html">Premium Office</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="membership.html">MEMBERSHIP</a>
+            <ul>
+              <li><a href="membership.html">Membership</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="access.html">ACCESS</a>
+            <ul>
+              <li><a href="access.html">Location</a></li>
+              <li><a href="access.html">Attraction</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      </div>
+    </div>
+    <footer>
+      <div class="realfooter">
+        <div class="info">
+          <ul>
+            <li>호텔 소개</li>
+            <li>이용 안내</li>
+            <li>개인정보처리방침</li>
+            <li>영상정보처리기기운영방침</li>
+            <li>채용안내</li>
+          </ul>
+        </div>
+        <div class="info_foot">
+          <div class="foot_text">
+            <img src="img/footer_logo.png" alt="">
+            <p>(04538) 61, Myeongdong-gil, Jung-gu, Seoul</p>
+            <span>TEL : +82-2-756-1112</span><br>
+            <p>FAX : +82-2-756-1119</p>
+            <p>Corporate Reg. No. : 201-81-31518</p>
+            <p>Mail : reser@royal.co.kr</p><br>
+            <span>COPYRIGHT © RoyalHotelSeoul. ALL RIGHTS RESERVED.</span>
+          </div>
+          <div class="foot_sns">
+            <a href="#"><img src="img/footer_tripadvisor.png" alt=""></a>
+            <a href="#"><img src="img/footer_blog.png" alt=""></a>
+            <a href="#"><img src="img/footer_insta.png" alt=""></a>
+          </div>
+        </div>
+        <a href="#"><span class="upBtn"></span></a>
+      </div>
+    </footer>
+    <section id="wing_btn">
+      <a href="#"><span><img src="img/wing_mypage.png" alt=""></span></a>
+      <a href="#"><span><img src="img/wing_insta.png" alt=""></span></a>
+      <a href="#"><span><img src="img/wing_map.png" alt=""></span></a>
+    </section>
+  </div>
+</body>
+</html>
